@@ -34,6 +34,18 @@ Compiling the App ourselfs and deploying it to the emulator failed.
 
 
 
+
+## Changing the Android Window Mode API 
+
+
+
+### Status
+-
+
+### Next Steps
+- 
+
+
 ## Building our Window Manager and encapsulate Apps inside a contained environment
 
 Instead of build ontop of the Android framework and use the default window manager, we could create our own one to escape the limitations that come with the official one. 
