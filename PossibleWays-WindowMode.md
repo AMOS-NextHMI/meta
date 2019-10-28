@@ -37,13 +37,14 @@ Compiling the App ourselfs and deploying it to the emulator failed.
 
 ## Changing the Android Window Mode API 
 
-
+Since Android 7.0 (API level 24) displaying more than one app at a time is supported. Apps can be run side-by-side or one-above-the-other. The user can drag the dividing line separating the two to make one app larger and the other smaller. Possible configurations are activity's minimum allowable dimensions. An activity can use the intent flag FLAG_ACTIVITY_LAUNCH_ADJACENT. If the device is in split-screen mode, the system attempts to create the new activity next to the activity that launched it, so the two activities share the screen. The system is not guaranteed to be able to do this, but it makes the activities adjacent if possible.
 
 ### Status
--
+- Only 2 Apps can be run at a time. Only the activity the user has most recently interacted with is active at a given time. All other visible activities are STARTED but are not RESUMED.
+- Layout attributes: defaultWidth, defaultHeight
 
 ### Next Steps
-- 
+- Picture-in-picture Support since Android 8
 
 
 ## Building our Window Manager and encapsulate Apps inside a contained environment
@@ -56,9 +57,3 @@ The Android App would then run inside a window ouf our own window manager and we
 
 ### Next Steps
 - Research if it is possible and how it can be adressed
-
-
-
-
-
-
