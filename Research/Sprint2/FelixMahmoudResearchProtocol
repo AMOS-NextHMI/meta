@@ -1,0 +1,54 @@
+
+=============================================================================================================
+
+Group IV - Felix and Mahmoud
+Research for existing alternative Window Managers, how they work and how they can be manipulated
+
+=============================================================================================================
+
+Found this video that shows an android app that uses all the things that we're looking to implement.
+https://www.youtube.com/watch?v=W_vOffg4dA8 - app with split screen, time stamp 6:26
+https://www.youtube.com/watch?v=gpXpfcg6gx8 - app with split screen, time stamp 8:20 
+https://www.youtube.com/watch?v=xcYFNMyJXFo - Polestar 2: 2:50
+
+https://play.google.com/store/apps/details?id=com.lwi.android.flapps&hl=en_US - An app that uses floating screens
+
+We contacted the developers of the floating windows app as to whether the source code is public and/or whether we could ask technical questions regarding window management. He said No to the former, but Yes to the latter. We would like to team brainstorm some questions to ask him, if we decide that is a helpful route.
+
+=============================================================================================================
+
+SW that shows that animations appear to be possible.
+https://developer.android.com/training/animation/overview
+
+=============================================================================================================
+
+This could be very useful as a reference towards understanding how to interact with "Android WindowManager," the service for manging windows (lol)
+
+https://stackoverflow.com/questions/19846541/what-is-windowmanager-in-android#targetText=The%20Android%20WindowManager%20is%20a,app%20or%20rotating%20the%20screen
+
+https://developer.android.com/guide/topics/ui/multi-window
+
+=============================================================================================================
+
+We believe that creating an app that acts as a container might be a great way to show that this would work. (We did find a plethora of examples online that show everything we're looking for.)
+
+=============================================================================================================
+
+An app that displays Sehenswuerdigkeiten nearby in minimized mode and enables the search for one in full screen mode...  (Seems like a cool app...  It would have been amazing in Iceland or in Teton National Park...)
+It does seem like a sub-app to navigation apps but who knows.
+
+This made us wonder about the things discussed at the beginning.  Brakes' effect on settings, etc...
+
+What do you guys think?  It's not a media nor a navigation-app.
+
+=============================================================================================================
+
+
+
+
+
+
+
+
+
+
