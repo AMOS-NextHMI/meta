@@ -1,4 +1,0 @@
-Permission isn't working?
-	Is it in the manifest
-	Do you remember to request it?
-	If you answered yes in both cases then check the list of allowed permissions; if it's there, see if it's in the error ones.

@@ -1,0 +1,7 @@
+
+Things to check if you have sensor permission problems:
+	1. Is it in the manifest in the corrects format?
+	2. Did you remember to request the permission before using the sensor?
+	If you answered yes in both cases then check the list of allowed permissions in the documentation. (https://developer.android.com/reference/android/car/Car)
+	Is it there, see if part of he allowed ones that are surrounded by an error in the documentation. (https://developer.android.com/reference/android/car/hardware/CarSensorManager)
+	Otherwise the error should be in the code itself.  Make sure you are asking for the permission in the correct way, that you have it, and that it's in both the manifest and the activity.
