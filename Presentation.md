@@ -4,15 +4,14 @@
 ## What is Android Automotive
 
 - New Operation System from Google
-- Android Based
-- For Cars
+- Android Based for Cars
 - not to be confused with Android Auto
-- First Car is the Polestar 1 from Volvo coming later this year
+- first Car is the Polestar 2 from Volvo coming later this year
 - The Car View only supports Media Apps with Messenger Apps are on its way
 
 ## Goal of the project
 
-- gain expierience with android Automotive
+- gain expierience with Android Automotive
 - create three Apps and a Launcher
 - summarize limitations and opportuinites of the platform
 - work together with IAV
@@ -22,25 +21,23 @@
 - Research focus
 - API still under Development
 - limited public documentation
-- Working as a Team is difficult when working on three independent projects
-
+- working as a Team is difficult when working on three independent projects
 
 ## Launcher Story
 
-- IAV Mockup with three parallel apps 
+- IAV mockup with three parallel apps 
 - Research different implementation frameworks
-
 
 ### Our Launcher
 
-- Fork standard Automotive OS Launche
-- immediatly encountered permissions problems 
-- deployment as not as system App 
-- we build our own rooted systemimage
-
+- Fork standard Automotive OS Launcher
+- immediately encountered permissions problems 
+- deployment not possible as system App 
+- we build our own rooted system image with the Android Open Source Project
+- decompile Volvo launcher who actually neither overcame existing problems
 - decision to stop there and handover to IAV
 - no steady progress, mainly research and hacking
-- difficult to quantifie sprint goals 
+- difficult to quantify sprint goals 
 - difficult sprint planing
 
 ### IAV Launcher
@@ -53,7 +50,6 @@
 - Again permission problems 
 - Research how to circumvent these
 - App is a standard Android App because AAOS only supports media apps -> 
-
 
 ## Podcast App
 - explain difference automotive view / standard app
